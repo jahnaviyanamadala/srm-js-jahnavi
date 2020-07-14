@@ -1,0 +1,57 @@
+.parent{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+}
+.child{
+	width: 40%;
+	border: 2px solid #ddd;
+	padding: 2%;
+	margin: 2%;
+	text-align: center;
+	box-shadow: 0px 8px 8px -8px #000;
+	border-radius: 3%;
+}
+.child1{
+	width: 45%;
+	border: 2px solid #ddd;
+	padding: 1%;
+	margin: 2%;
+	text-align: left;
+	box-shadow: 0px 8px 8px -8px #000;
+	border-radius: 3%;
+}
+.tb{
+	width: 50%;
+	border: 1px solid #000;
+	padding: 2%;
+}
+.str{
+	list-style-type: disc;
+}
+.profile{
+	width: 100px;
+	border: 1px solid #ddd;
+	padding: 2%;
+	margin: 2%;
+	box-shadow: 0px 8px 8px -8px #000;
+	border-radius: 70%;
+}
+.contact{
+	width:50px;
+}
+.mobile{
+	width:50px;
+}
+@media only screen and(min-width: 360px) and(max-width: 640px){
+	.child{
+		width: 90%;
+		border: 1px solid #ddd;
+		padding: 2%;
+		margin: 2%;
+		box-shadow: 0px 8px 8px -8px #000;
+		border-radius: 10%;
+		text-align: center;
+	}
+} 
